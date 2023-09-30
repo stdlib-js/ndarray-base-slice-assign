@@ -71,7 +71,7 @@ The [branches.md][branches-url] file summarizes the available branches and displ
 var sliceAssign = require( '@stdlib/ndarray-base-slice-assign' );
 ```
 
-#### slice( x, y, slice, strict )
+#### sliceAssign( x, y, slice, strict )
 
 Assigns element values from a broadcasted input `ndarray` to corresponding elements in an output `ndarray` view.
 
