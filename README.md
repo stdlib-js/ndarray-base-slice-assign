@@ -45,38 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-slice-assign
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-sliceAssign = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-assign@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var sliceAssign = require( 'path/to/vendor/umd/ndarray-base-slice-assign/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-assign@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.sliceAssign;
-})();
-</script>
+var sliceAssign = require( '@stdlib/ndarray-base-slice-assign' );
 ```
 
 #### sliceAssign( x, y, slice, strict )
@@ -162,18 +154,13 @@ The function accepts the following arguments:
 
 <!-- eslint-disable new-cap -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-from-scalar@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-assign@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var E = require( '@stdlib/slice-multi' );
+var scalar2ndarray = require( '@stdlib/ndarray-from-scalar' );
+var ndarray2array = require( '@stdlib/ndarray-to-array' );
+var ndzeros = require( '@stdlib/ndarray-zeros' );
+var slice = require( '@stdlib/ndarray-base-slice' );
+var sliceAssign = require( '@stdlib/ndarray-base-slice-assign' );
 
 // Alias `null` to allow for more compact indexing expressions:
 var _ = null;
@@ -235,11 +222,6 @@ var a6 = ndarray2array( y );
     ]
   ]
 */
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -331,15 +313,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-slice-assign/main/LICENSE
 
-[@stdlib/slice/multi]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/slice/multi]: https://github.com/stdlib-js/stdlib
 
-[@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/stdlib
 
-[@stdlib/ndarray/safe-casts]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/ndarray/safe-casts]: https://github.com/stdlib-js/stdlib
 
-[@stdlib/ndarray/same-kind-casts]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/ndarray/same-kind-casts]: https://github.com/stdlib-js/stdlib
 
-[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/stdlib/tree/umd
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/stdlib
 
 </section>
 
