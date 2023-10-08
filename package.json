@@ -49,7 +49,7 @@
     "@stdlib/ndarray-base-shape": "github:stdlib-js/ndarray-base-shape#main",
     "@stdlib/ndarray-base-slice": "github:stdlib-js/ndarray-base-slice#main",
     "@stdlib/ndarray-base-unary": "^0.1.0",
-    "@stdlib/string-format": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1",
     "@stdlib/types": "^0.1.0",
     "@stdlib/utils-identity-function": "^0.1.1"
   },
