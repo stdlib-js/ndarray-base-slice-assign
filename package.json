@@ -45,6 +45,8 @@
     "@stdlib/ndarray-base-assert-is-safe-data-type-cast": "^0.1.0",
     "@stdlib/ndarray-base-assert-is-same-kind-data-type-cast": "^0.1.0",
     "@stdlib/ndarray-base-broadcast-array": "^0.1.0",
+    "@stdlib/ndarray-base-dtype": "github:stdlib-js/ndarray-base-dtype#main",
+    "@stdlib/ndarray-base-shape": "github:stdlib-js/ndarray-base-shape#main",
     "@stdlib/ndarray-base-slice": "github:stdlib-js/ndarray-base-slice#main",
     "@stdlib/ndarray-base-unary": "^0.1.0",
     "@stdlib/string-format": "^0.1.1",
