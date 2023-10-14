@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import sliceAssign from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-assign@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-slice-assign/tags). For example,
+
+```javascript
 import sliceAssign from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-assign@v0.1.0-deno/mod.js';
 ```
 
@@ -144,7 +149,7 @@ import scalar2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-from-s
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
 import ndzeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@deno/mod.js';
 import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice@deno/mod.js';
-import sliceAssign from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-assign@v0.1.0-deno/mod.js';
+import sliceAssign from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-assign@deno/mod.js';
 
 // Alias `null` to allow for more compact indexing expressions:
 var _ = null;
