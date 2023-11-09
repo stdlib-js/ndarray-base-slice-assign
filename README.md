@@ -313,15 +313,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-slice-assign/main/LICENSE
 
-[@stdlib/slice/multi]: https://github.com/stdlib-js/stdlib
+[@stdlib/slice/multi]: https://github.com/stdlib-js/slice-multi
 
-[@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/ndarray-base-broadcast-shapes
 
-[@stdlib/ndarray/safe-casts]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/safe-casts]: https://github.com/stdlib-js/ndarray-safe-casts
 
-[@stdlib/ndarray/same-kind-casts]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/same-kind-casts]: https://github.com/stdlib-js/ndarray-same-kind-casts
 
-[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
 
 </section>
 
