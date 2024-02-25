@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sliceAssign from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-assign@esm/index.mjs';
+import sliceAssign from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-assign@v0.2.1-esm/index.mjs';
 ```
 
 #### sliceAssign( x, y, slice, strict )
@@ -149,7 +149,7 @@ import scalar2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-from-s
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
 import ndzeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros@esm/index.mjs';
 import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice@esm/index.mjs';
-import sliceAssign from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-assign@esm/index.mjs';
+import sliceAssign from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-slice-assign@v0.2.1-esm/index.mjs';
 
 // Alias `null` to allow for more compact indexing expressions:
 var _ = null;
