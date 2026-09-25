@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-19)
+## Unreleased (2026-09-25)
+
+<section class="features">
+
+### Features
+
+-   [`af5669c`](https://github.com/stdlib-js/stdlib/commit/af5669ca33f3f6e54f761853d1ed040d24f7012c) - add float16 dtype support to `ndarray/base/slice-assign` [(#15525)](https://github.com/stdlib-js/stdlib/pull/15525)
+
+</section>
+
+<!-- /.features -->
 
 <section class="issues">
 
@@ -24,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`af5669c`](https://github.com/stdlib-js/stdlib/commit/af5669ca33f3f6e54f761853d1ed040d24f7012c) - **feat:** add float16 dtype support to `ndarray/base/slice-assign` [(#15525)](https://github.com/stdlib-js/stdlib/pull/15525) _(by Samarth Kolarkar)_
 -   [`35b0ceb`](https://github.com/stdlib-js/stdlib/commit/35b0cebbcc09fbd8360368d789baf52331ff02c5) - **chore:** fix EditorConfig lint errors [(#13240)](https://github.com/stdlib-js/stdlib/pull/13240) _(by Ujjwal Verma)_
 -   [`7fab453`](https://github.com/stdlib-js/stdlib/commit/7fab4532629dccd39b59721b833da8a9128a3dec) - **bench:** refactor to use string interpolation in `ndarray/base` [(#11436)](https://github.com/stdlib-js/stdlib/pull/11436) _(by Karan Anand, Athan Reines)_
 
@@ -37,10 +48,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Samarth Kolarkar
 -   Ujjwal Verma
 
 </section>
