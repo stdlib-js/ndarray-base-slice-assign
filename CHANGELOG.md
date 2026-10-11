@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-05)
+## Unreleased (2026-10-11)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`26b285d`](https://github.com/stdlib-js/stdlib/commit/26b285db598be2101b46d89455bf42f613c75c88) - **refactor:** add support for dtype objects and use accessor functions _(by Athan Reines)_
 -   [`af5669c`](https://github.com/stdlib-js/stdlib/commit/af5669ca33f3f6e54f761853d1ed040d24f7012c) - **feat:** add float16 dtype support to `ndarray/base/slice-assign` [(#15525)](https://github.com/stdlib-js/stdlib/pull/15525) _(by Samarth Kolarkar)_
 -   [`35b0ceb`](https://github.com/stdlib-js/stdlib/commit/35b0cebbcc09fbd8360368d789baf52331ff02c5) - **chore:** fix EditorConfig lint errors [(#13240)](https://github.com/stdlib-js/stdlib/pull/13240) _(by Ujjwal Verma)_
 -   [`7fab453`](https://github.com/stdlib-js/stdlib/commit/7fab4532629dccd39b59721b833da8a9128a3dec) - **bench:** refactor to use string interpolation in `ndarray/base` [(#11436)](https://github.com/stdlib-js/stdlib/pull/11436) _(by Karan Anand, Athan Reines)_
